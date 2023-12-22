@@ -1,0 +1,553 @@
+.body{
+    width: 100%;
+}
+.menu{
+    height: 350px;
+    background-image: url("image/menu/menu.jpg");
+    background-size: cover;
+}
+nav{
+    color: #FFF;
+    float: left;
+    margin:30px 90px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li {
+    float: left;
+    transition: .3s;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #EFEEF5;
+    transition: 5s;
+    font-size: 25px;
+    margin-left:16px;
+    font-family: 'Bebas Neue', cursive;
+}
+nav ul li:hover a{
+    text-decoration: none;
+    color: #591BC5;;
+}
+nav ul li:hover{
+    height: 45px;
+    padding-top: 30px;
+    margin-top: -30px;
+    background: #EFEEF5;
+    text-decoration: none;
+    transform: skew(15deg);
+}
+.menu_text{
+    margin-left: -780px;
+    padding-top: 50px;
+    float: left;
+    font-size: 45px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+.menu_text_2{
+    color: darkblue;
+}
+/* CSS Header */
+.Header{
+    height: 815px;
+    background-image: url("image/Header/Header.png");
+    background-size: cover;
+}
+/* CSS Section_2 */
+.Header_platforms{
+    font-size: 60px;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    padding-top: 222px;
+    margin: 0;
+}
+.tru_now{
+    font-size: 16px;
+    font-family: 'Exo', sans-serif;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-left: 720px;
+    margin-top: -38px;
+}
+.was{
+    font-size: 10px;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    padding-top: 27px;
+    margin: 0;
+}
+.button_1{
+    height: 50px;
+    width: 200px;
+    margin-left: 660px;
+    margin-top: 30px;
+    background-color: #ff6d6d;
+}
+.Section_2{
+    height: 530px;
+    background-color: white;
+}
+.new_design{
+    font-size: 16px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    color: #ff6d6d;
+    text-transform: uppercase;
+    margin-left: 150px;
+    margin-top: 180px;
+}
+.Section_2_text1{
+    font-size: 27px;
+    font-family: 'Exo', sans-serif;
+    text-transform: uppercase;
+    margin-left: 150px;
+    margin-top: 10px;
+    color: black;
+}
+.Section_9{
+    font-size: 16px;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    color: red;
+}
+.Section_3_text_2 {
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    color: black;
+    font-weight: 900;
+}
+.kryshka{
+    padding-left: 1178px;
+}
+.nayshniki{
+    padding-left: 1140px;
+    margin-top: -290px;
+}
+.noshnice{
+    margin-top: -250px;
+}
+.Section_32{
+    font-size: 40px;
+    font-family: 'Exo', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    color: black;
+}
+.point{
+    color: #ff6d6d;
+}
+.Section_2_text2{
+    font-size: 16px;
+    font-family: 'Exo', sans-serif;
+    color: #767676;
+    margin-left: 150px;
+}
+.PLANE{
+    float: right;
+    margin-top: -300px;
+}
+.scale{
+    transition: 1s;
+}
+.scale:hover{
+    transform: scale(1.2);
+}
+/* CSS Section_3 */
+.Section_3{
+    height: 680px;
+    background-color: white;
+}
+/* CSS Clients */
+.Clients{
+    height: 690px;
+    background-image: url("image/Clients/Rectangle.png");
+}
+.table_1{
+    text-align: center;
+    padding-top: 100px;
+}
+[data-tooltip] {
+    position: relative; /* Относительное позиционирование */
+}
+[data-tooltip]::after {
+    content: attr(data-tooltip); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    width: 300px; /* Ширина подсказки */
+    left: 110px; top: 0; /* Положение подсказки */
+    background: #3989c9; /* Синий цвет фона */
+    color: #fff; /* Цвет текста */
+    padding: 0.5em; /* Поля вокруг текста */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Параметры тени */
+    pointer-events: none; /* Подсказка */
+    opacity: 0; /* Подсказка невидима */
+    transition: 1s; /* Время появления подсказки */
+}
+[data-tooltip]:hover::after {
+    opacity: 1; /* Показываем подсказку */
+    top: -4em; /* Положение подсказки */
+}
+.text_1{
+    font-family: 'Exo', sans-serif;
+    font-size: 22px;
+    color: white;
+    font-weight: 900;
+}
+.text_2{
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    color: #ff6d6d;
+    font-weight: 900;
+}
+.text_3{
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    color: #b3b3b5;
+    font-weight: 900;
+}
+
+/* CSS Description */
+.Description{
+    height: 550px;
+    background-color: white;
+}
+.New_design_2 {
+    font-size: 16px;
+    color: #ff6d6d;
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    margin-left: 950px;
+    margin-top: 130px;
+    text-transform: uppercase;
+}
+.Section_2_text5{
+    font-size: 40px;
+    font-family: 'Exo', sans-serif;
+    margin-top: 35px;
+    margin-left: 950px;
+    font-weight: 900;
+}
+.Section_2_text9{
+    font-size: 16px;
+    font-family: 'Exo', sans-serif;
+    color: #767676;
+    margin-left: 950px;
+}
+.PLANe{
+    height: 500px;
+    width: 700px;
+    padding-left: 100px;
+    margin-top: -370px;
+    padding-bottom: 111px;
+    position: relative;
+    z-index: 3;
+}
+.video{
+    position: absolute;
+    z-index: 5;
+    width: 500px;
+    height: 490px;
+    margin-top: -432px;
+    margin-left: 203px;
+}
+
+/* CSS Browser */
+.Browser{
+    height: 755px;
+    background-color: white;
+}
+.Browser_1{
+    font-size: 16px;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    color: red;
+}
+.Browser_2{
+    font-size: 40px;
+    font-family: 'Exo', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 45px;
+    color: black;
+}
+.Browser_3{
+    text-align: center;
+    height: 10px;
+    font-family: 'Exo', sans-serif;
+}
+.Browser_4{
+    height: 400px;
+    width: 700px;
+    padding-left: 410px;
+    padding-top: 170px;
+}
+.standow_2{
+    height:350px;
+    width:660px;
+    margin-top: -400px;
+    margin-bottom: 20px;
+    margin-left: 430px;
+}
+/* CSS Try_Now */
+.Try_Now{
+    height: 460px;
+    background-color: #313969;
+}
+.Try_Now_1{
+    font-size: 18px;
+    font-family: 'Exo', sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    color: red;
+    height: 500px;
+}
+.Try_Now_2{
+    font-size: 40px;
+    font-family: 'Exo', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: -480px;
+    color: white;
+}
+.ctrelka{
+    margin-left: 1050px;
+}
+.days{
+    margin-left: 1080px;
+    margin-top: -30px;
+    color:white;
+    font-size: 16px;
+    font-family: 'Exo', sans-serif;
+}
+/* CSS Header */
+.Footer{
+    height: 327px;
+    background-color: white;
+}
+.Footer_2{
+    text-align: center;
+    width: 100%;
+    padding-top: 50px;
+}
+.Footer_3{
+    font-weight: 900;
+    font-family: 'Exo', sans-serif;
+    font-size: 22px;
+}
+.Footer_4{
+    font-size: 16px;
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    color: #a2a2a2;
+}
+.Footer_1{
+    padding-top: 30px;
+}
+.Footer_input{
+    font-family: 'Exo', sans-serif;
+    background-color: #b3b3b5;
+    font-weight: 900;
+    font-size: 16px;
+    height: 40px;
+    text-align: center;
+}
+.png_2{
+    margin-left: 20px;
+}
+.png_3{
+    margin-left: 20px;
+}
+.png_4{
+    margin-left: 20px;
+}
+.full_name{
+    margin-left: 150px;
+    width: 260px;
+    height: 50px;
+    font-weight: 900;
+    color: white;
+    font-family: 'Exo', sans-serif;
+    background-color: #ff6d6d;
+    text-align: center;
+}
+.your_email{
+    width: 260px;
+    height: 50px;
+    font-weight: 900;
+    color: white;
+    font-family: 'Exo', sans-serif;
+    background-color: #ff6d6d;
+    text-align: center;
+}
+.password{
+    width: 260px;
+    height: 50px;
+    font-weight: 900;
+    color: white;
+    font-family: 'Exo', sans-serif;
+    background-color: #ff6d6d;
+    text-align: center;
+}
+.Try_Now_3{
+    width: 200px;
+    height: 50px;
+    margin-left: 100px;
+    font-weight: 900;
+    font-family: 'Exo', sans-serif;
+    color: black;
+}
+.shop{
+    color: blue;
+}
+.Belarus{
+    margin-left: 1400px;
+}
+.security{
+    background-color: aliceblue;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.registr_headr{
+    background-color: #4CAF50;
+    height: 60px;
+    width: 670px;
+}
+.registr_text{
+    font-family: 'Exo', sans-serif;
+    color: #EFEEF5;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: left;
+    margin: 0;
+    padding-top: 15px;
+}
+.text_98{
+    color: #3989c9;
+}
+.reset{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.reset{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.vhod_1{
+    background-image: url("image/vhod/fon.jpg");
+    width: 1590px;
+    height: 730px;
+    padding-top: 80px;
+}
+.vhod_2{
+    height: 650px;
+    width: 650px;
+    background-color: #EFEEF5;
+    margin-left: 410px;
+}
+.Vhod_3{
+    text-align: center;
+    font-family: 'Exo', sans-serif;
+    padding-top: 40px;
+}
+.vhod_email{
+    padding-left: 50px;
+}
+.vhod_password{
+    margin-left: 50px;
+}
+.vhod_password_text{
+    font-size: 14px;
+    margin-left: 50px;
+}
+.checbox{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.vhod_3{
+    margin-left: 50px;
+    background-color: #591BC5;
+    color: #EFEEF5;
+}
+.vhod_cherez{
+    margin-left: 50px;
+}
+.vhod_4{
+    margin-left: 50px;
+}
+.registratiojn{
+    margin-left: 50px;
+    background-color: #591BC5;
+    color: #EFEEF5;
+}
+.galochka{
+    height: 400px;
+    width: 400px;
+    margin-left: 600px;
+}
+.registr_56{
+    margin-left: 650px;
+    margin-top: 60px;
+
+}
+.button_button2{
+    margin-left: 700px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.registr_fon {
+    background-image: url("image/registr.finish/fon_2.jpg");
+    width: 1590px;
+    height: 730px;
+    padding-top: 80px;
+}
+
+
